@@ -1,23 +1,19 @@
 /* ------------------Web Fonts----------------- */
 header {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
 }
 
 h3,
 h4,
 ul li {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
 
@@ -27,6 +23,7 @@ ul li {
 }
 
 body {
+    font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
     line-height: 1.6;
 }
@@ -199,18 +196,25 @@ ul.main-nav li {
         margin-left: 1em;
         margin-right: 3em;
     }
- .intro p {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 2em;
+    }
+    .intro p {
     margin-left: 2em;
     font-size: 1.2em;
- }
- .container {
+    }
+    .container {
     margin-left: 1em;
- }
- .one {
+    }
+    .one {
     flex-basis: 33%;
-}
-.contact {
+    }
+    .contact {
     margin: 0 15em;
-}
-
+    }
+    .bottom {
+        margin-bottom: 0;
+    }
 }
